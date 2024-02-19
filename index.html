@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Candidature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire de Candidature</h1>
+    <form id="form">
+        <div>
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" required>
+        </div>
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" required>
+        </div>
+        <div>
+            <label for="age">Âge :</label>
+            <input type="number" id="age" required>
+        </div>
+        <div>
+            <label for="sexe">Sexe :</label>
+            <select id="sexe" required>
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+                <option value="autre">Autre</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Adresse Mail :</label>
+            <input type="text" id="email" required>
+        </div>
+        <div>
+            <label for="adresse">Adresse postale :</label>
+            <input type="text" id="adresse" required>
+        </div>
+        <div>
+            <label for="codePostal">Code postal :</label>
+            <input type="text" id="codePostal" required>
+        </div>
+        <div>
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" required>
+        </div>
+        <div>
+          <label for="metier">Métier exercé :</label>
+          <select id="metier" required>
+              <option value="">Choisir un métier</option>
+              <option value="DevOps">DevOps</option>
+              <option value="WebDev">Web Dev</option>
+              <option value="Cybersecurite">Cyber Analyste</option>
+              <option value="autre">Autre</option>
+          </select>
+      </div>
+        <div>
+            <label for="nationalite">Nationalité :</label>
+            <select id="nationalite" required>
+              <option value="" disabled selected>Choisir une nationalité</option>
+              <option value="francais">Francais</option>
+              <option value="grec">Grec</option>
+              <option value="espagnol">Espagnol</option>
+              <option value="portugais">Portugais</option>
+              <option value="autre">Autre</option>
+          </select>
+        </div>
+        <div>
+            <label for="dateNaissance">Date de naissance :</label>
+            <input type="date" id="dateNaissance" required>
+        </div>
+        <div>
+            <label for="paysNaissance">Pays de naissance :</label>
+            <input type="text" id="paysNaissance" required>
+        </div>
+        <div>
+            <label for="numSecu">Numéro de sécurité sociale :</label>
+            <input type="text" id="numeroSecurite" required>
+        </div>
+        <div>
+            <label for="numPasseport">Numéro du passeport :</label>
+            <input type="text" id="numeroPasseport" required>
+        </div>
+        <div>
+            <label for="dateDelivrancePasseport">Date de délivrance du passeport :</label>
+            <input type="date" id="dateDelivrancePasseport" required>
+        </div>
+        <div>
+            <label for="dateValiditePasseport">Date de validité du passeport :</label>
+            <input type="date" id="dateValiditePasseport" required>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
+
